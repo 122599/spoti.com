@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.container{
+    position: absolute;
+    width: auto;
+    
+}
+nav {
+    display: inline;
+    width: 50%;
+    
+}
+
+nav ul {
+     position: absolute;
+    left: 30%;
+   
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+nav ul li a:active {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    
+   
+}
+
+.wewe{
+    margin: 100px auto;
+    width: 75%;
+}
+.jjj{
+    max-width: 350px;
+    float: left;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-right: 50px;
+    
+}
+.jjj img{
+    width: 400px;
+    border-radius: 50px;
+}
+.text{
+    margin: 30px;
+    text-align: center;
+    color:black;
+}
+.image{
+  right: 20px;
+
+
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.card-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 22px;
+    color: #e60000;
+    font-weight: bold;
+}
+.rush{
+    text-align: center;
+
+}
+.tree{
+    text-align: center;
+}
+.rick{
+    text-align: center;
+    font-style: oblique;
+    color: orange;
+}
+.con{
+    margin-top: 20px;
+}
+footer{
+    background-color:black;
+    height: 240px;
+    margin-top: 50px;
+}
+footer h3{
+    background-color: black;
+    margin-left: 650px;
+    margin-top: 40px;
+    text-align: center;
+}
+.co{
+    display: flex;
+    background-color: black;
+}
+.one{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.two{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.three{
+    margin-left: 200px;
+    margin-top: 50px;
+}
